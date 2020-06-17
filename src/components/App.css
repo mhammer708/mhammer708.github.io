@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #282c34;
+  background-color: #353535;
 }
 
 .App-logo {
@@ -9,7 +9,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #353535;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,6 +42,8 @@ body {
   justify-content: center;
   min-height: 70vh;
   background-color: #d9d9d9;
+  padding-bottom: 5vh;
+  border-radius: 0.3rem;
   /* padding: 0px 98px 0px 98px; */
 }
 
@@ -63,6 +65,7 @@ body {
 .about {
   display: flex;
   flex-direction: row;
+  padding-top: 5vh;
 }
 
 .about-text {
@@ -120,6 +123,15 @@ body {
   padding: 2.5vh 0 2.5vh 0;
 }
 
-/* #headshot {
-  max-height: 25vh;
-} */
+#headshot {
+  max-height: 55vh;
+  max-width: 55vh;
+  height: 100%;
+  width: 100%;
+}
+
+.headshot {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+}

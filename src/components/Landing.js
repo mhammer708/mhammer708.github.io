@@ -48,12 +48,14 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <img
-                src="newHeadshot.png"
-                id="headshot"
-                class="img-fluid"
-                alt="..."
-              />
+              <div class="headshot">
+                <img
+                  src="newHeadshot.png"
+                  id="headshot"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
         </div>
