@@ -40,7 +40,11 @@ function App() {
                   </button>
                 </a>
 
-                <a href="mhammer_resume.pdf" download>
+                <a
+                  href="https://drive.google.com/file/d/1PhWO2_bV0JodvFLrqpqv8ZA1W0cvNVtK/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button type="button" class="btn btn-outline-dark resume">
                     RESUME
                   </button>
