@@ -13,7 +13,7 @@ function App() {
             </span>{" "}
             Hi, I'm Michael Hammer
           </h2>
-          <h2>I am a software engineer currently living in Chicago</h2>
+          <h2>I am a software engineer currently living in New Orleans</h2>
         </div>
       </div>
 
@@ -67,9 +67,7 @@ function App() {
 
       <div className="header">
         <div className="container">
-          <h2 className="display-4">
-            <i>PROJECTS</i>
-          </h2>
+          <h2 className="display-4">PROJECTS</h2>
         </div>
       </div>
 
@@ -77,10 +75,9 @@ function App() {
         <div className="container">
           <div class="row">
             <Project
-              title="MY-TINERARY"
-              description="Web-based trip planning tool for groups of travelers to streamline
-              expenses"
-              gitHubLink="https://github.com/mhammer708/mytinerary"
+              title="BOWER"
+              description="Mobile app for Euchre players to find games in their area"
+              gitHubLink="https://github.com/mhammer708/Bower"
             />
             <Project
               title="PLANT STORE"
