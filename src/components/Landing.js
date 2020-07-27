@@ -10,7 +10,7 @@ function App() {
           <h2>
             <span role="img" aria-label="wave">
               👋
-            </span>{" "}
+            </span>
             Hi, I'm Michael Hammer
           </h2>
           <h2>I am a software engineer currently living in New Orleans</h2>
@@ -67,7 +67,7 @@ function App() {
 
       <div className="header">
         <div className="container">
-          <h2 className="display-4">PROJECTS </h2>
+          <h2 className="display-4">PROJECTS</h2>
         </div>
       </div>
 
