@@ -67,7 +67,7 @@ function App() {
 
       <div className="header">
         <div className="container">
-          <h2 className="display-4">PROJECTS</h2>
+          <h2 className="display-4">PROJECTS </h2>
         </div>
       </div>
 
