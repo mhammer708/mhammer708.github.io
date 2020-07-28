@@ -11,9 +11,9 @@ function App() {
             <span role="img" aria-label="wave">
               👋
             </span>
-            Hi, I'm Michael Hammer
+            {"  "} Hi, I'm Michael Hammer
           </h2>
-          <h2>I am a software engineer currently living in New Orleans</h2>
+          <h2>I'm a software engineer currently living in New Orleans</h2>
         </div>
       </div>
 
