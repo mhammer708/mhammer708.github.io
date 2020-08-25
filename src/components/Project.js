@@ -1,41 +1,42 @@
 import React, { useState } from "react";
+import Popup from "./Popup";
 
 const Project = (props) => {
   let [hoverStatus, setHoverStatus] = useState(false);
 
+  // const click = () => {
+  //   $("#myModal").modal("show");
+  // };
+
   return (
-    <div class="col-sm">
+    <div className="col-sm">
       <div
-        class="card text-center text-white project"
+        className="card text-center text-white project"
         onMouseEnter={() => setHoverStatus(true)}
         onMouseLeave={() => setHoverStatus(false)}
+        data-toggle="modal"
+        data-target={"#" + props.title}
       >
         {hoverStatus ? (
-          <div>
-            <p>
-              <strong>{props.description} </strong>
-            </p>
+          <>
             <div>
-              {props.projectLink && (
-                <a href={props.projectLink}>
-                  <button type="button" class="btn btn-outline-light projBtn">
-                    Visit
-                  </button>
-                </a>
-              )}
-              {props.gitHubLink && (
-                <a href={props.gitHubLink}>
-                  <button type="button" class="btn btn-outline-light projBtn">
-                    Explore
-                  </button>
-                </a>
-              )}
+              <p>
+                <strong>{props.description}</strong>
+              </p>
             </div>
-          </div>
+          </>
         ) : (
           <h2>{props.title}</h2>
         )}
       </div>
+      <Popup
+        title={props.title}
+        description={props.description}
+        gitHubLink={props.gitHubLink}
+        projectLink={props.projectLink}
+        image1={props.image1}
+        image2={props.image2}
+      />
     </div>
   );
 };

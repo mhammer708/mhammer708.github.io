@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
 function App() {
   return (
     <div>
-      <div className="jumbotron">
+      <div className="jumbotron hero">
         <div className="container">
           <h2>
             <span role="img" aria-label="wave">
@@ -19,23 +19,26 @@ function App() {
 
       <div className="panel">
         <div className="container about">
-          <div class="row">
-            <div class="col-sm-8 about-text">
-              <p class="lead">
+          <div className="row">
+            <div className="col-sm-8 about-text">
+              <p className="lead">
                 I graduated from Fullstack Academy in May 2020 and am currently
                 looking into new opportunities. Prior to software development, I
                 worked in higher ed consulting and cannabis processing
                 technology. I work in the NERDS stack (Node.js, Express, React,
                 Databases using SQL) but am always interested in learning more.
               </p>
-              <p class="lead">
+              <p className="lead">
                 When I’m not coding, you can find me hammocking in the park,
                 hanging around the climbing gym, or winning Settlers of Catan.
               </p>
 
               <div>
                 <a href="mailto:mhammer708@gmail.com">
-                  <button type="button" class="btn btn-outline-light contact">
+                  <button
+                    type="button"
+                    className="btn btn-outline-light contact"
+                  >
                     CONNECT
                   </button>
                 </a>
@@ -45,18 +48,18 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button type="button" class="btn btn-outline-dark resume">
+                  <button type="button" className="btn btn-outline-dark resume">
                     RESUME
                   </button>
                 </a>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="headshot">
+            <div className="col-sm-4">
+              <div className="headshot">
                 <img
                   src="newHeadshot.png"
                   id="headshot"
-                  class="img-fluid"
+                  className="img-fluid"
                   alt="..."
                 />
               </div>
@@ -73,28 +76,32 @@ function App() {
 
       <div className="panel">
         <div className="container">
-          <div class="row">
+          <div className="row">
             <Project
               title="BOWER"
               description="Mobile app for Euchre players to find games in their area"
               gitHubLink="https://github.com/mhammer708/Bower"
             />
             <Project
-              title="PLANT STORE"
+              title="PLANT-STORE"
               description="E-Commerce site for shoppers to browse items and checkout with
             Stripe"
               gitHubLink="https://github.com/argon-grace-shopper/grace-shopper"
               projectLink="https://grace-shopper-argon.herokuapp.com/"
+              image1={true}
+              image2={true}
             />
           </div>
 
-          <div class="row">
+          <div className="row">
             <Project
               title="EAR-BUDS"
               description="Interactive web app for friends to listen to podcasts together in
             real time"
               gitHubLink="https://github.com/Podcast-Party/Ear-Buds"
               projectLink="https://earbuds.web.app/"
+              image1={true}
+              image2={true}
             />
             <Project
               title="+"
@@ -109,25 +116,25 @@ function App() {
         <div className="container">
           <div className="footer-row">
             <a href="mailto:mhammer708@gmail.com">
-              <button type="button" class="btn btn-outline-light social">
-                <FaEnvelope class="fa-lg" />
+              <button type="button" className="btn btn-outline-light social">
+                <FaEnvelope className="fa-lg" />
               </button>
             </a>
 
             <a href="https://github.com/mhammer708">
-              <button type="button" class="btn btn-outline-light social">
-                <FaGithub class="fa-lg" />
+              <button type="button" className="btn btn-outline-light social">
+                <FaGithub className="fa-lg" />
               </button>
             </a>
 
             <a href="https://www.linkedin.com/in/mhammer1/">
-              <button type="button" class="btn btn-outline-light social">
-                <FaLinkedinIn class="fa-lg" />
+              <button type="button" className="btn btn-outline-light social">
+                <FaLinkedinIn className="fa-lg" />
               </button>
             </a>
           </div>
 
-          <div class="footer-row">
+          <div className="footer-row">
             <p>© 2020 Michael Hammer.</p>
           </div>
         </div>

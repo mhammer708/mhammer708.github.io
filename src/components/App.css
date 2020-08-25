@@ -27,13 +27,30 @@ body {
   min-height: 10vh;
 }
 
-.jumbotron {
+.hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
   background-color: #3c6e71;
   color: #ffffff;
   margin-bottom: 0px;
+}
+
+.projectPopupContainer {
+  background-color: #3c6e71;
+  color: #ffffff;
+  border-bottom: 0px;
+}
+
+.close {
+  color: #ffffff;
+  text-shadow: 0 1px 0 #353535;
+}
+
+.projectPopup {
+  background-color: #3c6e71;
+  color: #ffffff;
+  border-radius: 0;
 }
 
 .panel {
@@ -45,6 +62,27 @@ body {
   padding-bottom: 5vh;
   border-radius: 0.3rem;
   /* padding: 0px 98px 0px 98px; */
+}
+
+.screenshot {
+  padding-bottom: 2.5%;
+  max-width: 100%;
+  height: auto;
+}
+
+.modal {
+  border-radius: 0.3rem;
+}
+
+.screenshot-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  padding-right: 2.5%;
 }
 
 .project {
