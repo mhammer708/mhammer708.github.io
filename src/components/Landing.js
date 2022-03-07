@@ -134,7 +134,7 @@ function App() {
           </div>
 
           <div className="footer-row">
-            <p>© 2022 Michael Hammer.</p>
+            <p>© 2022 Michael Hammer</p>
           </div>
         </div>
       </div>
