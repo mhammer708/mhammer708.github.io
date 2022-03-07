@@ -13,7 +13,7 @@ function App() {
             </span>
             {"  "} Hi, I'm Michael Hammer
           </h2>
-          <h2>I'm a software engineer currently living in San Francisco</h2>
+          <h2>I'm a software engineer</h2>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ function App() {
           <div className="row">
             <div className="col-sm-8 about-text">
               <p className="lead">
-                Currently working at <a href="https://www.twilio.com/">Twilio</a> 
+                Currently in San Francisco working at <a href="https://www.twilio.com/">Twilio</a> 
                 helping folks send to send Application-to-Person (A2P) messages. 
                 Prior to software development, I worked in higher ed consulting 
                 and cannabis processing technology.
