@@ -23,7 +23,7 @@ function App() {
             <div className="col-sm-8 about-text">
               <p className="lead">
                 Currently in San Francisco working at <a href="https://www.twilio.com/">Twilio</a> 
-                helping folks send to send Application-to-Person (A2P) messages. 
+                helping folks send Application-to-Person (A2P) messages. 
                 Prior to software development, I worked in higher ed consulting 
                 and cannabis processing technology.
               </p>
